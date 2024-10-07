@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 5px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+code {
+  font-size: 1.2em;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  padding-inline-start: 20px;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Arial, sans-serif;
+}
+
+th {
+  padding-top: 10px;
+  font-family: Arial, sans-serif;
+}
+
+td {
+  padding: 2px;
+  padding-right: 40px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead th {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tbody td {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+#search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.not-stocked {
+  color: red;
+}
+
+#stock-check + label {
+  font-size: 14px;
+  color: grey;
+  font-family: Arial, sans-serif;
+}
